@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Array2D.swift">
+   </FileRef>
+   <FileRef
       location = "self:Swiftris1.xcodeproj">
    </FileRef>
 </Workspace>
