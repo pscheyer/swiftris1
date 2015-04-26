@@ -46,7 +46,6 @@ class GameScene: SKScene {
         }
         
     }
-}
 
 func startTicking(){
     lastTick = NSDate()
@@ -55,3 +54,5 @@ func startTicking(){
 func stopTicking() {
     lastTick = nil
 }
+}
+
