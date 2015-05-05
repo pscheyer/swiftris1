@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0AA99A36-43B3-45BB-9599-D06D3C1D2516</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Swiftris1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D0D97962FEB9ADDF93B205BE2717C6E0052CE26B</key>
 		<string>https://github.com/pscheyer/swiftris1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Swiftris1.xcodeproj/project.xcworkspace</string>
+	<string>Swiftris1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D0D97962FEB9ADDF93B205BE2717C6E0052CE26B</key>
