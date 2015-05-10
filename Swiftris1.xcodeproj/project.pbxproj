@@ -32,6 +32,7 @@
 		D3ECC7BB1AF6CB1D00781482 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECC7BA1AF6CB1D00781482 /* SShape.swift */; };
 		D3ECC7BD1AF6CB3400781482 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECC7BC1AF6CB3400781482 /* ZShape.swift */; };
 		D3ECC7BF1AF6CC1A00781482 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECC7BE1AF6CC1A00781482 /* Swiftris.swift */; };
+		D3ECC88A1AFF0FB400781482 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ECC8891AFF0FB400781482 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		D3ECC7BA1AF6CB1D00781482 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		D3ECC7BC1AF6CB3400781482 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		D3ECC7BE1AF6CC1A00781482 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
+		D3ECC8891AFF0FB400781482 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				D3CDBDFF1AEC8FCF00B73CEB /* Block.swift */,
 				D3E812471AEC1CF20095D3CA /* GameViewController.swift */,
 				D3ECC7BE1AF6CC1A00781482 /* Swiftris.swift */,
+				D3ECC8891AFF0FB400781482 /* Array2D.swift */,
 				D3CDBE011AED6B0600B73CEB /* Shape.swift */,
 				D3E812491AEC1CF20095D3CA /* Main.storyboard */,
 				D365C6281AEDBBBE001E363A /* SquareShape.swift */,
@@ -284,6 +287,7 @@
 				D365C6291AEDBBBE001E363A /* SquareShape.swift in Sources */,
 				D3ECC7B51AF6CAA400781482 /* LineShape.swift in Sources */,
 				D365C62B1AEDD84F001E363A /* TShape.swift in Sources */,
+				D3ECC88A1AFF0FB400781482 /* Array2D.swift in Sources */,
 				D3ECC7BD1AF6CB3400781482 /* ZShape.swift in Sources */,
 				D3ECC7B71AF6CAD900781482 /* LShape.swift in Sources */,
 				D3ECC7BB1AF6CB1D00781482 /* SShape.swift in Sources */,
