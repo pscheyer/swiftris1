@@ -51,6 +51,11 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
         swiftris.letShapeFall()
     }
     
+    @IBAction func muteButtonTapped(sender: UIBarButtonItem) {
+        
+    }
+    
+    
     @IBAction func didTap(sender: UITapGestureRecognizer) {
         
         swiftris.rotateShape()

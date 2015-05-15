@@ -17,7 +17,7 @@ class GameScene: SKScene {
     let gameLayer = SKNode()
     let shapeLayer = SKNode()
     let LayerPosition = CGPoint(x: 6, y: -6)
-    
+    let soundsOn = Bool()
     
     var tick:(() -> ())?
     var tickLengthMillis = TickLengthLevelOne
@@ -50,11 +50,15 @@ class GameScene: SKScene {
         shapeLayer.addChild(gameBoard)
         gameLayer.addChild(shapeLayer)
         
+        if soundsOn == true {
         runAction(SKAction.repeatActionForever(SKAction.playSoundFileNamed("theme.mp3", waitForCompletion: true)))
+        }
     }
     
     func playSound(sound:String) {
+        if soundsOn == true {
         runAction(SKAction.playSoundFileNamed(sound, waitForCompletion: false))
+        }
     }
     
     override func update(currentTime: CFTimeInterval) {

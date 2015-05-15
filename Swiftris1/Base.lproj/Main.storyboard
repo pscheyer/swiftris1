@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Noq-MH-Fxc">
-                                <rect key="frame" x="224" y="118" width="84" height="100"/>
+                                <rect key="frame" x="224" y="138" width="84" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whitebg.png" translatesAutoresizingMaskIntoConstraints="NO" id="QFH-Ay-htD">
                                         <rect key="frame" x="0.0" y="0.0" width="84" height="100"/>
@@ -29,7 +29,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="1EE-no-T3l">
-                                        <rect key="frame" x="0.0" y="49" width="84" height="28"/>
+                                        <rect key="frame" x="0.0" y="54" width="84" height="28"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="35"/>
                                         <color key="textColor" red="0.1333333333" green="0.64705882349999999" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -39,7 +39,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLC-74-zIV">
-                                <rect key="frame" x="224" y="237" width="84" height="100"/>
+                                <rect key="frame" x="224" y="257" width="84" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whitebg.png" translatesAutoresizingMaskIntoConstraints="NO" id="t62-yd-Yf6">
                                         <rect key="frame" x="0.0" y="0.0" width="84" height="100"/>
@@ -60,6 +60,32 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSL-iV-feg">
+                                <rect key="frame" x="231" y="109" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1333333333" green="0.64705882349999999" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Z7-Mw-teo">
+                                <rect key="frame" x="130" y="40" width="160" height="284"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.19999999999999968" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nv4-mf-UPe">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="jwy-Mf-c6O"/>
+                                    <barButtonItem enabled="NO" width="108" id="nxF-XF-rhl"/>
+                                    <barButtonItem systemItem="action" id="Cf6-jX-8ox"/>
+                                    <barButtonItem enabled="NO" id="Vq4-19-c9t"/>
+                                    <barButtonItem enabled="NO" id="Pnc-oD-cBe"/>
+                                    <barButtonItem enabled="NO" id="bhE-7B-b83"/>
+                                    <barButtonItem title="Mute" width="73" id="Wro-xN-xqW">
+                                        <connections>
+                                            <action selector="muteButtonTapped:" destination="LVB-YS-i5n" id="igh-bV-IgU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
